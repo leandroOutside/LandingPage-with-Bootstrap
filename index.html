@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Casa das Farinhas</title>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>    
+  </head>
+  <body>
+    <header>                  
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color text-uppercase" id="navbar">
+          <div class="container py-3">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" src="img/logo-banners/logo-red.png" alt="logo casa das farinhas">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active secondary-color" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="loja.html">Varejo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="atacado.html">Atacado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Quem somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>       
+    </header>
+    <!-- slider -->
+    <main>      
+      <div class="container" id="slider-container">
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/logo-banners/banner-black-friday.png" class="d-block w-100" alt="banner natal casa das farinhas">
+            </div>          
+            <div class="carousel-item">
+              <img src="img/logo-banners/natal-banner-1.png" class="d-block w-100" alt="banner natal casa das farinhas">
+            </div>
+            <div class="carousel-item">
+              <img src="img/logo-banners/adega-1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block">
+                <h2 class="d-none d-md-block">tradição e compromisso</h2>                
+                <a href="#" class="main-btn">Adega</a>
+              </div>        
+            </div>
+            <div class="carousel-item">
+              <img src="img/logo-banners/corredor-side-massas.png" class="d-block w-100 dev-sm" alt="...">
+              <div class="carousel-caption d-block">
+                <h2 class="d-none d-md-block">O melhor lugar para suas compras</h2>
+                <a href="#" class="main-btn">Loja</a>
+              </div>        
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+            <i class="bi bi-chevron-compact-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+            <i class="bi bi-chevron-compact-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>                                             
+        </div>
+        <!--BANNERS/POSTS-->   
+        <div class="container">                  
+          <div class="col12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-credit-card primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com cartão</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi primary-color">PIX</i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com PIX</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-cash-coin primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com Dinheiro</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-credit-card primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com cartão</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi primary-color">PIX</i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com PIX</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-cash-coin primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Pague com Dinheiro</h5>
+                    <p class="card-text secondary-color">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-dark">saber mais</a>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+  </body>
+</html>
